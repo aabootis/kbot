@@ -26,6 +26,18 @@ go build -ldflags "-X=github.com/aabootis/kbot/cmd.appVersion=v1.0.2"
 
 kbot start
 ```
+# Command examples
+```
+command: /exec hello
+response: Hello I'm Kbot v1.0.2!
+
+command: /exec bye
+response: See you later, Alligator.
+
+command: /exec where is the money
+response: No money, no fanny.
+
+```
 
 # Create path
 ```
